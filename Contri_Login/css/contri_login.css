@@ -52,6 +52,10 @@
   padding: 27px 15px;
 }
 
+.sec01 .box02 ul li p {
+  line-height: 1.333;
+}
+
 /* Apply styling to the unordered list */
 .large-square-list {
   list-style: none;
