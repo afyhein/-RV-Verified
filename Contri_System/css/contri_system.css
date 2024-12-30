@@ -1,0 +1,29 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+�@account_order_myacount_area
+-----------------------------------------------------------------------------*/
+/* common */
+nav#breadcrumb_area {padding-top: 15px;}
+
+.sec {padding: 0 15px;}
+
+.sec ul {display: flex;flex-direction: column;gap: 7px;}
+.sec ul ::marker {font-size: 10px;}
+.sec ul p {margin-left: 15px;position: relative;}
+.sec .myacount_area h2 {color: #ff4549;border-color: #ff4549;}
+
+/* ////////////////// section_01 ////////////////// */
+.sec01 > p {padding: 15px 0;}
+.yellow_box {list-style: none;font-weight: bold;font-size: 12px;padding: 15px !important;}
+.yellow_box p::before {content: '';left: -15px;top: 5px;width: 10px;height: 10px;background-color: #ff4549;position: absolute;}
+.content_box {border: 1px solid #C1FACF;border-radius: 5px;}
+.content_box > * {padding: 15px;}
+.content_box h3 {background-color: #C1FACF;color: #ff4549;font-weight: bold;}
+
+/* ////////////////// section_02 ////////////////// */
+.sec02 ul {list-style: disc;padding: 15px 0 0 25px;}
+
+/* ////////////////// section_03 ////////////////// */
+.sec03 ul {list-style: disc;padding: 0 0 15px 25px;}
+.sec03 > p {padding: 15px;}

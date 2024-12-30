@@ -1,0 +1,51 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+�@account_order_myacount_area
+-----------------------------------------------------------------------------*/
+/* common */
+nav#breadcrumb_area {padding-top: 15px;}
+
+.sec-full, .sec {border-bottom: 1px solid #9A9A9A;}
+.sec {padding: 15px;}
+a.link {color: #47AFFF;text-decoration: underline;}
+
+/* cart_list_component */
+.cart_item_list li:last-child .cart_contents {border: none;}
+.cart_item_list .cart_item_img img {width: 75px;height: auto;border: none;}
+.cart_item_list .cart_item_img {flex-basis: 100px;}
+.cart_item_list .cart_item_txt {flex-basis: 100%;flex-shrink: 1;}
+.cart_item_list .cart_item_txt p:first-child {font-weight: bold;}
+.cart_item_list .cart_contents {border-top: none;border-bottom: 1px solid #9A9A9A;}
+
+/* pagination_component */
+.pagination {display: flex;gap: 5px;justify-content: end;margin: 15px 15px 0px 0px;}
+.pagination span {border: 1px solid rgb(235, 90, 90);width: 35px;height: 35px;border-radius: 50%;display: flex;justify-content: center;align-items: center;line-height: 35px;color: rgb(223, 28, 28);}
+.pagination span:hover {background-color: rgb(255, 0, 0);color: white;cursor: pointer;}
+
+/* status_btn_component */
+.status-btn {width: max-content;height: max-content;border: none;padding: 5px;border-radius: 5px;cursor: pointer;background-color: #9a9a9a;color: #fff;font-size: 12px;}
+.status-btn.success {background-color: #C1FACF;color: #ff4549}
+.status-btn.warning {background-color: #fdf995;color: #ff4549;}
+
+/* ////////////////// section_01 ////////////////// */
+.sec01 {border-bottom: none;}
+.order-card-list {display: flex;flex-direction: column;gap: 25px;padding: 10px 0;}
+.order-card-list > li {border: 1px solid #9a9a9a;border-radius: 5px;overflow: hidden;}
+.order-header {background-color: #eeeeee;padding: 15px;}
+.order-header > p:first-child {font-weight: bold;font-size: 16px;}
+.order-status {display: flex;align-items: center;padding: 15px;border-bottom: 1px solid #9A9A9A;}
+.sec01 .status-btn {margin-left: auto;}
+.sec01 .cart_item_list {padding: 0 15px;}
+
+.order-footer li{border-top: 1px solid #9a9a9a;}
+.order-footer li a{position: relative;/*	height: 60px;*/font-size: 12px;line-height: 1;padding: 1.3em 30px 1.3em 15px;display: block;}
+.order-footer li a p{padding-left: 30px; font-size: 8px;}
+.order-footer li a::after {position: absolute;top: 50%;right: 14px;display: block;content: '';width: 8px;height: 8px;margin-top: -5px;border-top: 1px solid #9a9a9a;border-right: 1px solid #9a9a9a;transform: rotate(45deg) skew(6.0000rad, 6.0000rad);}
+.delivery-status {display: flex;flex-direction: row;flex-wrap: wrap;gap: 10px;padding: 16px;border-bottom: 1px solid #9A9A9A;}
+.delivery-btn {cursor: pointer;background-color: #eeeeee;padding: 8px 90px;color: #47afff;border-radius: 25px;margin-left: auto;font-size: 12px;}
+.order-btn {display: flex;margin: 12px 12px 0px 0px;gap: 10px;font-size: 12px;}
+.order-btn button {width: 50%;padding: 5px 7px;display: flex;gap: 5px;align-items: center;border: 1px solid #ff4945;border-radius: 25px;color: #ff4945;font-size: clamp(0px, 1.8vw, 10px);}
+.order-btn button img {width: 15px;}
+.cart_item_list .cart-btn {max-width: 100px;}
+.cart_item_list .pay-btn {max-width: 120px;}

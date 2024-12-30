@@ -1,0 +1,36 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+�@user_regist_yamato_myacount_area
+-----------------------------------------------------------------------------*/
+/* breadcrumb_area style start */
+#breadcrumb_area {
+  padding-top: 15px;
+}
+
+/* breadcrumb_area style end */
+
+.sec01 {
+  margin: 15px;
+}
+
+.tit_name_sub .icon_yamato_s{justify-content: flex-start;color: #FF4549;}
+.required_red{margin-left: 32px;}
+.tit_name_sub{border-top: 1px solid #FF4549;margin: 25px 0px;}
+.office_location{margin-bottom:15px !important;}
+.btn_red{margin: 23px 12px !important;}
+.btn-yellow{background-color: #FDD000 !important; color:#000000 !important ;font-weight: bold;}
+.w-80{width: 80% !important;}
+.w-90{width: 90% !important;}
+.w-100{width: 100% !important;}
+.btn_yellow{margin: 0px 12px;}
+.sp-addr-input-wrap4{margin-top: 19px;padding: 5px 0px !important;}
+input[type="text"]{border-radius: 5px !important;}
+
+.myacount_list li a p {
+  padding-left: 30px;
+  font-size: 8px !important;
+}
+
+.myacount_list li:last-child a p{font-size: 10px !important;margin-top: 9px;}
+

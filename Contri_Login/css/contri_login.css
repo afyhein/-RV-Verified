@@ -1,0 +1,124 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+�@contri_login
+-----------------------------------------------------------------------------*/
+
+#breadcrumb_area {
+  padding-top: 15px;
+}
+
+/* section01 style start */
+.box01 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sec01 {
+  margin-bottom: 35px !important;
+  margin-top: 25px;
+}
+
+.sec01 img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 15px;
+  /* Position icon inside the input box */
+  top: 5px;
+}
+
+.sec01 h2 {
+  width: 95%;
+  margin: 12px;
+  padding: 0px 0px 5px 30px;
+  /* font-size: 12px; */
+  border: none;
+  /* Remove default border */
+  border-bottom: 2px solid #FF4549;
+  /* Red underline */
+  outline: none;
+  /* Remove outline on focus */
+  background-color: transparent;
+}
+
+.sec01 .box02 {
+  background-color: #FDF995;
+  margin: 12px;
+  border-radius: 5px;
+  color: #FF0000;
+  /* font-weight: bold; */
+  padding: 27px 15px;
+}
+
+/* Apply styling to the unordered list */
+.large-square-list {
+  list-style: none;
+  /* Remove default list styling */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.large-square-list p {
+  margin-left: 20px;
+}
+
+.large-square-list li {
+  display: flex;
+  position: relative;
+}
+
+
+/* Fallback for browsers not supporting ::marker */
+.large-square-list li::before {
+  content: "■";
+  /* Square character */
+  font-size: 20px;
+  /* Adjust size */
+  color: #FF0000;
+  /* Color */
+  display: inline-block;
+  /* Ensure alignment */
+  width: 1em;
+  /* Add space for alignment */
+  margin-right: 0.5em;
+  /* Space between marker and text */
+  position: absolute;
+  top: -11px;
+
+}
+
+.sec01>a {
+  display: block;
+  color: #47afff;
+  text-decoration: underline;
+  margin: 12px 100px;
+  text-align: right;
+}
+
+.btn_normal_red {
+  margin: 27px;
+  width: 320px !important;
+}
+
+/* section01 style end */
+
+/* list-display style start */
+
+.myacount_list li a p {
+  padding-left: 30px;
+  font-size: 8px !important;
+}
+
+.myacount_list li:last-child a p {
+  font-size: 10px !important;
+  margin-top: 9px;
+}
+
+/* list-display style end */

@@ -1,0 +1,188 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+�@dis_history_myacount_area
+-----------------------------------------------------------------------------*/
+/* breadcrumb_area style start */
+#breadcrumb_area {
+  padding-top: 15px;
+}
+
+/* breadcrumb_area style end */
+
+/* section01 style start */
+
+.sec01 {
+  margin: 24px 15px;
+}
+
+.txt01 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.card_container {
+  padding: 0px;
+}
+
+/* checkmark start */
+.checkmark-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkmark {
+  border: 1.5px solid #707070;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkmark span {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.card_container li a .checkmark-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin-right: 0px !important;
+  cursor: pointer;
+}
+
+.sec01 .card_container .checkmark {
+  border: none;
+  background-color: #EEEEEE;
+}
+
+.sec01 .checked {
+  background-color: #FF4549;
+  border: none !important;
+}
+
+
+/* checkmark end */
+/* item-box start */
+
+.checked {
+  background-color: #FF4549 !important;
+}
+
+.card_container {
+  grid-template-columns: auto auto;
+
+}
+
+.item-box {
+  border: 1px solid #707070;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.card_container li a .checkmark-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin-right: 0px !important;
+  cursor: pointer;
+}
+
+.card_container li a .card_img {
+  margin: 0px;
+  height: 168px;
+}
+
+.card_container li a .card_img img {
+  width: 150px;
+  height: 155px;
+  margin: 5px auto;
+  display: block;
+}
+
+.item_price {
+  color: #FF0000;
+  margin: 10px 0px 7px 9px;
+  padding: 0px;
+}
+
+.msg {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px 7px 9px;
+}
+
+.msg img {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+}
+
+.msg p {
+  font-size: 10px !important;
+}
+
+/* item-box end */
+
+/* section01 style end */
+
+
+/* pagination start */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.pagination ul {
+  display: flex;
+  gap: 5px;
+  justify-content: end;
+  margin: 15px 15px 0px 0px;
+}
+
+.pagination ul li {
+  border: 1px solid #FF4549;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 35px;
+  color: #FF4549;
+  transition: .5s;
+}
+
+.pagination ul li:hover {
+  background-color: #FF4549;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* pagination end */
+
+.date {
+  text-align: center;
+  margin-top: 14px;
+}
+
+/* list-display start */
+.myacount_list li a p {
+  padding-left: 30px;
+  font-size: 8px !important;
+}
+
+.myacount_list li:last-child a p {
+  font-size: 10px !important;
+  margin-top: 9px;
+}
+/* list-display end */

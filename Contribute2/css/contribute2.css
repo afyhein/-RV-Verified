@@ -1,0 +1,31 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+�@contribute2
+-----------------------------------------------------------------------------*/
+nav#breadcrumb_area {padding-top: 15px;}
+.sec01 {padding: 15px;}
+a.link {color: #47AFFF;text-decoration: underline;}
+img {width: 100%;vertical-align: bottom;}
+
+/* ////////////////// section_01 ////////////////// */
+.content{padding: 25px; text-align: center;}
+#contents{padding-bottom: .5px;}
+.bg-img {width: 42%;margin: 0 auto;max-width: 306px;margin-top: 14px;}
+.yellow_box {padding: 25px 15px !important;}
+.box01 {padding: 0 15px;display: flex;flex-direction: column;gap: 15px;}
+.box01 .content {font-size: 10px;padding-bottom: 0;margin: 0 0 0 15px;}
+.btn_normal_red,.btn_line_red{margin: 0px !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+

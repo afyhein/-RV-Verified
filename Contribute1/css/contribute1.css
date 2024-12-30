@@ -1,0 +1,30 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+contribute1_contents
+-----------------------------------------------------------------------------*/
+nav#breadcrumb_area {padding-top: 15px;}
+.sec {padding: 15px;}
+.sec .headsup_list {border-width: 2px;}
+.sec a.txt_red:hover {text-decoration: underline;}
+
+/* cart_component */
+.cart_contents .cart_item_img img {width: 75px;height: auto;border: none;}
+.cart_contents .cart_item_img {flex-basis: 100px;}
+.cart_contents .cart_item_txt {flex-basis: 100%;flex-shrink: 1;}
+.cart_contents .cart_item_txt p:first-child {font-weight: bold;}
+.cart_contents {border: none}
+
+/* ////////////////// section_02 ////////////////// */
+ .sp-addr-input-wrap {display: flex;flex-direction: column;}
+ .sp-addr-input-wrap button {margin-left: auto;border: 1px solid #FF4549;padding: 7px 10px 7px 28px;width: max-content;border-radius: 5px;color: #FF4549;}
+ .sp-addr-input-wrap input {width: 100%;}
+ .pulldown label {width: 60%;}
+ .bg_green {border-radius: 5px;}
+ .bg_green a {display: flex;align-items: center;}
+ .bg_green a::before {content: "";display: inline-block;width: 20px;aspect-ratio: 1/1;background: url(../images/common/header/header_pc_beginner_on.png) no-repeat center/contain;}
+ .accordion textarea {resize: none;}
+ .box01 {padding: 0 12px;}
+ .links {margin-left: auto;display: flex;}
+ .links span {padding: 0 10px;}
+ .links span:first-child {margin-left: auto;border-right: 1px solid #707070;}

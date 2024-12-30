@@ -1,0 +1,32 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+�@user_regist_convenience_myacount_area
+-----------------------------------------------------------------------------*/
+/* breadcrumb_area style start */
+#breadcrumb_area {
+  padding-top: 15px;
+}
+
+/* breadcrumb_area style end */
+
+.sec01 {
+  margin-bottom: 12px;
+}
+
+.tit_name_sub .icon_convenience_store_s{justify-content: flex-start;color: #FF4549;}
+
+.tit_name_sub{border-top: 1px solid #FF4549;margin: 25px 0px;}
+.sec01 .delivery_map{margin-bottom: 25px;}
+.sec01 .delivery_map a{margin-top: 10px;width: 215px;}
+.sec01{margin:0px 15px 0px 15px; }
+
+#btn_open_map{margin-bottom: 25px;}
+
+.myacount_list li a p {
+  padding-left: 30px;
+  font-size: 8px !important;
+}
+
+.myacount_list li:last-child a p{font-size: 10px !important;margin-top: 9px;}
+
