@@ -1,29 +1,110 @@
 /* CSS Document */
 
 /*-----------------------------------------------------------------------------
-�@account_order_myacount_area
+�@contri_system_myacount_area
 -----------------------------------------------------------------------------*/
 /* common */
-nav#breadcrumb_area {padding-top: 15px;}
+nav#breadcrumb_area {
+    padding-top: 15px;
+}
 
-.sec {padding: 0 15px;}
+.sec {
+    padding: 0 15px;
+}
 
-.sec ul {display: flex;flex-direction: column;gap: 7px;}
-.sec ul ::marker {font-size: 10px;}
-.sec ul p {margin-left: 15px;position: relative;}
-.sec .myacount_area h2 {color: #ff4549;border-color: #ff4549;}
+.sec ul::marker {
+    font-size: 10px;
+}
 
-/* ////////////////// section_01 ////////////////// */
-.sec01 > p {padding: 15px 0;}
-.yellow_box {list-style: none;font-weight: bold;font-size: 12px;padding: 15px !important;}
-.yellow_box p::before {content: '';left: -15px;top: 5px;width: 10px;height: 10px;background-color: #ff4549;position: absolute;}
-.content_box {border: 1px solid #C1FACF;border-radius: 5px;}
-.content_box > * {padding: 15px;}
-.content_box h3 {background-color: #C1FACF;color: #ff4549;font-weight: bold;}
+.sec ul li p {
+    margin-left: 15px;
+    position: relative;
+}
 
-/* ////////////////// section_02 ////////////////// */
-.sec02 ul {list-style: disc;padding: 15px 0 0 25px;}
+.sec .myacount_area h2 {
+    color: #ff4549;
+    border-color: #ff4549;
+}
 
-/* ////////////////// section_03 ////////////////// */
-.sec03 ul {list-style: disc;padding: 0 0 15px 25px;}
-.sec03 > p {padding: 15px;}
+/* section_01 */
+.sec01 .box01 p {
+    padding: 15px 0;
+}
+
+.sec01 .box02 {
+    background-color: #FDF995;
+    margin: 12px;
+    border-radius: 5px;
+    color: #FF0000;
+    padding: 27px 15px;
+}
+
+.sec01 .box02 ul li p {
+    line-height: 1.333;
+}
+
+.box02 .large-square-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.box02 .large-square-list p {
+    margin-left: 20px;
+}
+
+.box02 .large-square-list li {
+    display: flex;
+    position: relative;
+}
+
+.box02 .large-square-list li::before {
+    content: "■";
+    font-size: 20px;
+    color: #FF0000;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+    position: absolute;
+    top: 0;
+}
+
+.box03 {
+    border: 1px solid #C1FACF;
+    border-radius: 5px;
+}
+
+.box03>* {
+    padding: 15px;
+}
+
+.box03 h3 {
+    background-color: #C1FACF;
+    color: #ff4549;
+    font-weight: bold;
+}
+
+/* section_02 */
+.sec02 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    list-style: disc;
+    padding: 15px 0 0 25px;
+}
+
+/* section_03 */
+.sec03 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    list-style: disc;
+    padding: 0 0 15px 25px;
+}
+
+.sec03>p {
+    padding: 15px;
+}
